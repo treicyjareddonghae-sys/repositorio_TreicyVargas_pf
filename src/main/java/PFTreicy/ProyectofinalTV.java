@@ -17,8 +17,11 @@ public class ProyectofinalTV{
         System.out.print("Ingrese el monto de la tercera compra: ");
         double compra3 = sc.nextDouble();
 
-        double totalCompras = compra1 + compra2 + compra3;
-        double promedioCompras = totalCompras / 3;
+        System.out.print("Ingrese el monto de la cuarta: ");
+        double compra4 = sc.nextDouble();
+        
+        double totalCompras = compra1 + compra2 + compra3 + compra4;
+        double promedioCompras = totalCompras / 4;
 
         System.out.println("\n--- Resultados ---");
         System.out.println("Cliente: " + nombre);
